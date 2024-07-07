@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "IranYekan-Light";
+    src: url('../fonts/iranyekanweblightfanum.ttf') format('ttf'), url('../fonts/iranyekanweblightfanum.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "IranYekan-Medium";
+    src: url('../fonts/iranyekanwebmediumfanum.ttf') format('ttf'), url('../fonts/iranyekanwebmediumfanum.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "IranYekan-Light-En";
+    src: url('../fonts/IRANYekanWebLight.ttf') format('ttf'), url('../fonts/IRANYekanWebLight.woff') format('woff');
+    font-weight: normal;
+}
