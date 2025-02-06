@@ -231,6 +231,8 @@
     height: 0;
     overflow: hidden;
     padding-top: 56.25%; }
+  iframe body{
+    width: 100%;}
     .mfp-iframe-scaler iframe {
       position: absolute;
       display: block;
@@ -240,6 +242,9 @@
       height: 100%;
       box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
       background: #000; }
+.mfp-iframe-scaler iframe {
+  width: 100%;
+}
   
   /* Main image in popup */
   img.mfp-img {
@@ -251,7 +256,9 @@
     box-sizing: border-box;
     padding: 40px 0 40px;
     margin: 0 auto; }
-  
+  .mfp-img{
+    width: 100%;
+  }
   /* The shadow behind the image */
   .mfp-figure {
     line-height: 0; }

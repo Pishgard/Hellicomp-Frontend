@@ -587,12 +587,13 @@ toggleSwitch.addEventListener('change', switchTheme, false);
   // Video popup
 	$('.video-popup-link').magnificPopup({
     disableOn: 200,
-    type: 'iframe',
+    type: 'image',
     mainClass: 'mfp-fade',
     removalDelay: 160,
     preloader: false,
     fixedContentPos: false
   });
+
   // =======Magnific-PopUp========>>>>>
 
   if($('.hover-area').length > 0){
@@ -678,3 +679,11 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   // end if innerWidth
 });
+
+
+const iframe = document.querySelector(".mfp-iframe");
+
+iframe.onload = function() {
+  const img = iframe.contentWindow.document.querySelector("img");
+  img.style.width = "100%";
+};
