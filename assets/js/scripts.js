@@ -587,6 +587,16 @@ toggleSwitch.addEventListener('change', switchTheme, false);
   // Video popup
 	$('.video-popup-link').magnificPopup({
     disableOn: 200,
+    type: 'iframe',
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+    fixedContentPos: false
+  });
+
+
+  $('.img-popup-link').magnificPopup({
+    disableOn: 200,
     type: 'image',
     mainClass: 'mfp-fade',
     removalDelay: 160,
